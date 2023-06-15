@@ -1,0 +1,136 @@
+@media (max-width: 59rem) {
+  .headerNav-list {
+    display: none;
+  }
+  .header-section {
+    width: 100%;
+  }
+  .header-btn {
+    display: none;
+  }
+
+  .section-introduction {
+    /* background-color: greenyellow; */
+    width: 100%;
+    padding: 4.6rem;
+    position: relative;
+  }
+  .description {
+    padding-top: 3.2rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .introduction {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem;
+    /* gap: 4.8rem; */
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-image {
+    display: none;
+  }
+  .btn,
+  .btn--full {
+    padding: 1.6rem;
+    font-size: 1.6rem;
+  }
+
+  .btn--outline {
+    margin-left: 4rem;
+  }
+
+  html {
+    font-size: 50%;
+  }
+  .intro-btn {
+    display: flex;
+    margin-top: 2.4rem;
+  }
+
+  .skill-Section {
+    padding: 4.6rem;
+    /* background-color: aqua; */
+    width: 100%;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section-project {
+    padding: 4.6rem;
+    width: 100%;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section-experiance {
+    padding: 4.6rem;
+    width: 100%;
+  }
+  .exp-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    gap: 4.6rem;
+  }
+  .contact-section {
+    padding: 4.6rem;
+    width: 100%;
+  }
+  .header-container h2 a {
+    font-size: 1.6rem;
+  }
+  .contact-container {
+    padding: auto;
+  }
+  .menu {
+    display: block;
+  }
+  .navmenubar {
+    display: flex;
+    flex-direction: column;
+    /* transform: translateY(65%) !important; */
+    background-color: #e67e22;
+    padding: 2.4rem;
+    border-radius: 0.9rem;
+    align-items: center;
+    top: 9.6rem;
+    left: 0rem;
+    position: absolute;
+  }
+  .delivered-imgs {
+    display: block;
+    background-image: url("/src/components/introSection/image/mukeshkumar.jpg");
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+  .delivered-imgs img {
+    /* height: 4.8rem;
+    width: 4.8rem; */
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    /* border: 3px solid #fdf2e9; */
+  }
+}

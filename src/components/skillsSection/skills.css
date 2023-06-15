@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.skill-Section {
+  padding: 9.6rem;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+}
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-top: 3.6rem;
+}
+.coding-img {
+  width: 100%;
+  border-radius: 0.9rem;
+  object-fit: contain;
+}
+
+.skillSlider > .css-eglki6-MuiLinearProgress-root {
+  background-color: rgb(147, 143, 143);
+}
+
+.css-5xe99f-MuiLinearProgress-bar1 {
+  background-color: #cf711f !important;
+}
