@@ -11,19 +11,19 @@ const Project = () => {
     {
       img: picture,
       title: "IMAGE GALLERY",
-      link: "www.google.com",
+      link: "https://mukeshkumar55.github.io/Snapshot-project/",
       desc: "This is an image gallery which consists of search bar and button panel. In search bar, the user will be able to search for four categories such as mountain, beaches, birds and food. In the button panel there are four button with the name of above mention categories. The image gallery will be displayed according to the category entered in the search bar or the button click.",
     },
     {
       img: picture1,
       title: "EXPENSE TRACKER",
-      link: "www.google.com",
+      link: "https://mukeshkumar55.github.io/Expense--tracker/",
       desc: "This is an Expense Calculator in which the balance amount will be displayed according to the amount entered by user. And the user will be able to credit or debit the amount from the displayed balance.As the user credits or debits the amount, the details of the transaction will be displayed with the time frame",
     },
     {
       img: picture2,
       title: "GUESS MY NUMBER",
-      link: "www.google.com",
+      link: "https://mukeshkumar55.github.io/Guess-my-number-game/",
       desc: "This is an interesting game, the goal is to guess the hidden number which will change randomly in every new game. The players should enter the guesses, if the guessed number and hidden number are same the player will win the game and the high score will be displayed.Otherwise for every wrong guess he will lose 1 point from the total score 20 on reaching 0 the player will lose the game. ",
     },
   ];

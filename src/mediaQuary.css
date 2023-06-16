@@ -102,6 +102,7 @@
   .contact-container {
     padding: auto;
   }
+
   .menu {
     display: block;
   }
@@ -125,12 +126,56 @@
     background-size: cover;
     height: 6.4rem;
     width: 6.4rem;
-  }
-  .delivered-imgs img {
-    /* height: 4.8rem;
-    width: 4.8rem; */
-    border-radius: 50%;
     margin-right: -1.6rem;
-    /* border: 3px solid #fdf2e9; */
+  }
+}
+@media (max-width: 29rem) {
+  html {
+    font: size 40%;
+  }
+
+  .logo-name {
+    font-size: 2.6rem;
+    margin: 0 1.2rem;
+  }
+  .MuiSvgIcon-root {
+    width: 2rem !important;
+    height: 2rem !important;
+    color: #e67e22;
+    /* padding-left: 1rem !important; */
+  }
+  .delivered-imgs {
+    width: 4.6rem;
+    height: 4.6rem;
+    padding-left: 1.6rem !important;
+  }
+  .intro-btn a {
+    font-size: 40% !important;
+  }
+
+  .experiance {
+    margin: auto;
+    width: 25rem !important;
+    height: 15rem !important;
+  }
+  .heading-secondary {
+    font-size: 2.6rem;
+    line-height: 1.2;
+    margin-bottom: 1.8rem;
+  }
+  .section-experiance {
+    margin: auto !important;
+  }
+  .heading1 {
+    font-size: 3.6rem;
+    line-height: 1.2;
+    margin-bottom: 2.4rem;
+    margin-top: 1.6rem;
+  }
+  .contact-container p {
+    font-size: 120%;
+    line-height: 1.4;
+    margin-bottom: 1.6rem;
+    /* margin-left: 1.6rem; */
   }
 }

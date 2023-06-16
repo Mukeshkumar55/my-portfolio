@@ -6,15 +6,17 @@
 .skill-Section {
   padding: 9.6rem;
 }
+.skillsKnown,
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 3rem !important;
   line-height: 1.2;
-  margin-bottom: 4.8rem;
+  margin-bottom: 1rem !important;
 }
+
 .heading-tertiary {
-  font-size: 3rem;
+  font-size: 2.6rem;
   line-height: 1.2;
-  margin-top: 3.6rem;
+  margin-top: 2.6rem;
 }
 .coding-img {
   width: 100%;

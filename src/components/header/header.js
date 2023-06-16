@@ -38,7 +38,7 @@ const Header = () => {
           {/* <div className="overlay"></div> */}
           <MenuIcon onClick={ClickMenu}></MenuIcon>
         </div>
-        <h2>
+        <h2 className="logo-name">
           <a href="#">
             <span className="logo">F</span>rontend{" "}
             <span className="logo">D</span>evelop<span>er</span>
@@ -49,7 +49,7 @@ const Header = () => {
           <ul ref={navShow} className="headerNav-list">
             <li>
               <Link className="nav-link" to="home" smooth={true} duration={500}>
-                <h4>Home</h4>
+                <h4 className="nav-heading">Home</h4>
               </Link>
             </li>
             {/* <li>
@@ -108,7 +108,7 @@ const Header = () => {
           About me
         </button>
         <div class="delivered-imgs">
-          <img alt="mukeshkumar-image"></img>
+          <img />
         </div>
       </header>
       {show && (
