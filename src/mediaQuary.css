@@ -150,7 +150,7 @@
     padding-left: 1.6rem !important;
   }
   .intro-btn a {
-    font-size: 40% !important;
+    font-size: 120% !important;
   }
 
   .experiance {
@@ -177,5 +177,9 @@
     line-height: 1.4;
     margin-bottom: 1.6rem;
     /* margin-left: 1.6rem; */
+  }
+  .nav-link:active,
+  .nav-link:hover {
+    color: #fff;
   }
 }
